@@ -52,7 +52,7 @@ Biblioteki statyczne gtk+extra.
 
 %prep
 %setup -q -n gtk+extra-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 # just libtool macros
 rm -f acinclude.m4
